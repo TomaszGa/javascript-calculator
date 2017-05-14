@@ -126,9 +126,8 @@ function getNumbers(inpt){
     }
 		if(calcArr[0]===NaN){calcArr = [];}
 		if(currentInput==NaN){currentInput = 0;}	
-		var displayString = "<p>"+ calcArr.join("");
+		var displayString = calcArr.join("");
 		if (currentInput !== ""){displayString += currentInput;}
-	  displayString + "</p>";
 		$("#calcDisplay").html(displayString);
 		return console.log(calcArr);
 
@@ -158,6 +157,6 @@ function getNumbers(inpt){
 		calcArr.pop();
 		calculate(calcArr);
 		}
-
+		if(result === 0){return ""}
 		return parseFloat(result.toFixed(5));
 	}
