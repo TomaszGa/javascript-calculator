@@ -9,3 +9,5 @@ This implementation avoids the use of eval() which is a straightforward solution
 ### issues
 The calculator currently does not have a number limit, making it possible to enter numbers exceeding screen size.
 It is possible to add a second comma to a number just after the previous number is evaluated (and if the evaluated number is not a whole number).
+
+Available at https://tomaszga.github.io/javascript-calculator/

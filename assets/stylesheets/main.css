@@ -1,8 +1,17 @@
+html{
+	height: 95vh;
+}
+
 body{
     font-family: "Orbitron", helvetica, arial;
     text-align: center;
-    background-color: lightgreen;
-    width: 100%;
+    background-color: #add8e6;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 button{
 	font-family: "Orbitron";
@@ -33,11 +42,9 @@ h1{
 .main-box{
 	background-color: lightgrey;
 	border-radius: 5px;
-	margin: 0 auto;
-	margin-top: 5%;
 	width: 280px;
 	height: auto;
-	box-shadow: 3px 3px 5px;
+	box-shadow: 5px 3px 15px 0px;	
 }
 
 .calc-display{
